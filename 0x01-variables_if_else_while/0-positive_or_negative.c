@@ -2,13 +2,22 @@
 
 #include <time.h>
 
-#include <stdio.h>
-
 /* more headers goes there */
+
+#include <stdio.h>
 
 /* betty style doc for function main goes there */
 
-int main(void) /*Execution of the function begins*/
+/**
+ * main - Entry point
+ *
+ * Description: 'the program's description'
+ *
+ * Return: Always 0 (Success)
+ *
+ */
+
+int main(void)
 
 {
 	int n;
