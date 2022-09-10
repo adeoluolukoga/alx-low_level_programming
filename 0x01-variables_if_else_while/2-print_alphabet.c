@@ -31,6 +31,8 @@ for (alpha = 'a'; alpha <= 'z'; alpha++)
 	putchar(alpha);
 }
 
-	return(0);
+	putchar(alpha);
+
+	return (0);
 
 }
