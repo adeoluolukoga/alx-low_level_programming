@@ -30,7 +30,7 @@ while (alpha <= 'z')
 {
 	if (alpha != 'e')
 		if (alpha != 'q')
-	       {
+		{
 			putchar(alpha);
 		}
 		else
