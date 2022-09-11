@@ -24,19 +24,28 @@ int main(void)
 {
 int digit1;
 
+int digit2;
+
 digit1 = 0;
+
+digit2 = 0;
 
 for (digit1 = 0; digit1 <= 9; digit1++)
 {
 	putchar(digit1 + '0');
-	
-	if (digit1 < 9)
+
+	for (digit2 = 0; digit2 <= 9; digit2++)
 	{
-		putchar(',');
+		putchar(digit2 + '0');
 	}
-	else
-	{
-	}
+		
+		if (digit1 <= 9 && digit2 < 9)
+		{
+			putchar(',');
+		}
+		else
+		{
+		}
 	
 	putchar(' ');
 }
