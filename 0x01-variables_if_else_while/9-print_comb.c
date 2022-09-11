@@ -29,7 +29,7 @@ digit1 = 0;
 for (digit1 = 0; digit1 <= 9; digit1++)
 {
 	putchar(digit1 + '0');
-	
+
 	if (digit1 < 9)
 	{
 		putchar(',');
@@ -37,7 +37,7 @@ for (digit1 = 0; digit1 <= 9; digit1++)
 	else
 	{
 	}
-	
+
 	putchar(' ');
 }
 
