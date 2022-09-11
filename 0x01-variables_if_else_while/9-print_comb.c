@@ -22,16 +22,23 @@ int main(void)
 /* your code goes here*/
 
 {
-char num;
+char digit1;
 
-num = 0;
+char digit2;
 
-for (num = 0; num <= 9; num++)
+digit1 = 0;
+
+digit2 = 0;
+
+for (digit1 = 0; digit1 <= 9; digit1++)
 {
-	putchar(num + '0');
+	for (digit2 = 0; digit2 <= 9; digit2++)
+	{
+		putchar(digit1 + '0');
+		putchar(digit2 + '0');
+		putchar(',');
+	}
 }
-
-	putchar('\n');
 
 	return (0);
 

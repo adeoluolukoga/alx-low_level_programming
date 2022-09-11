@@ -22,13 +22,13 @@ int main(void)
 /* your code goes here*/
 
 {
-char num;
+char alpha;
 
-num = 0;
+alpha = 'z';
 
-for (num = 0; num <= 9; num++)
+for (alpha = 'z'; alpha >= 'a'; alpha--)
 {
-	putchar(num + '0');
+	putchar(alpha);
 }
 
 	putchar('\n');
