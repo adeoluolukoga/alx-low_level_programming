@@ -19,12 +19,12 @@
 
 int main(void)
 
-/* your code goes here*/
+/* your code goes here */
 
 {
-char digit1;
+int digit1;
 
-char digit2;
+int digit2;
 
 digit1 = 0;
 
