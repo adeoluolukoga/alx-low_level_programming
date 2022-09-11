@@ -26,16 +26,15 @@ char alpha;
 
 alpha = 'a';
 
- while (alpha <= 'z')
+while (alpha <= 'z')
 {
 	if (alpha != 'e')
-	       if (alpha != 'q')	
-		{
+		if (alpha != 'q')
+	       {
 			putchar(alpha);
 		}
 		else
 		{
-	
 		}
 	else
 	{
