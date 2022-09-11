@@ -22,7 +22,7 @@ int main(void)
 /* your code goes here*/
 
 {
-char num;
+int num;
 
 num = 0;
 
