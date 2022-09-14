@@ -8,6 +8,9 @@
  */
 
 int _islower(int c)
+
+/* _islower is function toprint lower case with retun 0 and 1*/
+
 {
 
 	int r = c;
