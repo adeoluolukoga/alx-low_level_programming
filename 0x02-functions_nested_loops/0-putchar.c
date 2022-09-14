@@ -8,9 +8,9 @@
 * On error, -1 is returned, and errno is set appropriately.
 */
 
-int _putchar(char c)
+int main(void)
 {
-	char c = "_putchar";
+	char c[] = "_putchar";
 	int b;
 
 	for (b=0; b<8; b++)
