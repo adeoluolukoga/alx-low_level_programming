@@ -11,9 +11,11 @@
 int _putchar(char c)
 {
 	char c = "_putchar";
+	int = b;
 
+	for (b=0; b<8; b++)
 	{
-		_putchar(c);
+		_putchar(c[b]);
 	}
 
 		return(0);
