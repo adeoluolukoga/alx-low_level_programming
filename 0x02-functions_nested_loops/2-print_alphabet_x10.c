@@ -21,7 +21,7 @@ void print_alphabet_x10(void)
 
 		count++;
 
-		_putchar('\n');   /* note that there is no return bcos 
+		_putchar('\n');/* note that there is no return bcos 
 				* return vale of the function is void
 				*/
 
