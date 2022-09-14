@@ -10,47 +10,9 @@
 int _islower(int c)
 {
 
-	int r;
+	int r = c;
 
-	switch (_islower(c))
-	{
-		r = _islower(c);
-
-		case _islower('o'):
-			_putchar(r + '0');
-
-		case _islower(108):
-			_putchar(r + '0');
-
-		case _islower('c'):
-			_putchar(r + '0');
-
-		case _islower('I'):
-			_putchar(r + '0');
-
-		case _islower('s'):
-			_putchar(r + '0');
-
-		case _islower(70):
-			_putchar(r + '0');
-
-		case _islower(20):
-			_putchar(r + '0');
-
-		case _islower('U'):
-			_putchar(r + '0');
-
-		case _islower('n'):
-			_putchar(r + '0');
-
-		case _islower(0):
-			_putchar(r + '0');
-
-		case _islower('H'):
-			_putchar(r + '0');
-	}
-
-	if (r != 0)
+	if (97 <= r <= 122)
 	{
 		return (1);
 	}
