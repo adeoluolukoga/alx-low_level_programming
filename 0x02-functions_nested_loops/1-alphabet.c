@@ -3,7 +3,7 @@
 /**
 * print_alphabet - Entry point
 * Description - it prints all alphabets in lowercase
-* Return: On success 0.
+* Return void
 */
 
 void print_alphabet(void)
@@ -16,8 +16,6 @@ void print_alphabet(void)
 		_putchar(alpha);
 	}
 		_putchar('\n');
-
-		return (0);
 
 }
 
