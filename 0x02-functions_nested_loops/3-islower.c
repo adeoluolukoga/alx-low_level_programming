@@ -10,12 +10,20 @@
 int _islower(int c)
 {
 
-	if (_islower(c) != 0)
+	int r;
+
+	r = _islower(c);
+
+	if (r != 0)
 	{
+		_putchar(r + '0');
+
 		return (1);
 	}
 	else
 	{
+		_putchar(r + '0');
+
 		return (0);
 	}
 
