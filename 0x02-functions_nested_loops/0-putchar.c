@@ -10,7 +10,7 @@
 
 int _putchar(char c)
 {
-	char c = "_putchar";
+	char c = [_putchar];
 	int = b;
 
 	for (b=0; b<8; b++)
