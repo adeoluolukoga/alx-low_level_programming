@@ -8,12 +8,12 @@
 * On error, -1 is returned, and errno is set appropriately.
 */
 
-int _putchar(char _putchar)
+int _putchar(char a)
 {
 	char a[] = "_putchar";
 	int b;
 
-	for (b=0: b<8; b++)
+	for (b=0; b<8; b++)
 	{
 		_putchar(a[b]);
 	}
