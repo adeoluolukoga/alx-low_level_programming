@@ -8,7 +8,7 @@
 
 void more_numbers(void)
 {
-	char digit = 0;
+	int digit = 0;
 	int count = 1;
 
 	while (count <= 10)
