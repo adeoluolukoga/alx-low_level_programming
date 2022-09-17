@@ -1,12 +1,12 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * more_numbers - Entry point
+ * main - Entry point
  * Description - it prints digits 0 to 14 10xtimes
  * Return void
  */
 
-void more_numbers(void)
+int main()
 {
 	int digit = 0;
 	int count = 1;
@@ -18,18 +18,20 @@ void more_numbers(void)
 		{
 			if (digit < 10)
 			{
-				_putchar(digit + '0');
+				putchar(digit + '0');
 			}
 			else
 			{
-				_putchar((digit / 10) + '0');
-				_putchar((digit % 10) + '0');
+				putchar((digit / 10) + '0');
+				putchar((digit % 10) + '0');
 			}
 		}
 
 		count++;
 
-		_putchar('\n');
+		putchar('\n');
 /* note that there is no return bcos return value of the function is void*/
 	}
+		
+	return (0);
 }
