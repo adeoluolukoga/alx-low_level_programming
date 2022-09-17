@@ -13,13 +13,17 @@ void print_most_numbers(void)
 
 	for (i = 48; i <= 57; i++)/* _putchar uses char ASCII format */
 	{
-		if ((i != 50) || (i != 52))
+		if (i == 50)
 		{
-			_putchar(i);
+			_putchar();
+		}
+		else if (i == 52)
+		{
+			_putchar();
 		}
 		else
 		{
-			continue;
+			_putchar(i);
 		}
 	}
 

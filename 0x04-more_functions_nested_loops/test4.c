@@ -13,13 +13,17 @@ int main()
 
 	for (i = 48; i <= 57; i++)/* _putchar uses char ASCII format */
 	{
-		if ((i != 50) || (i != 52))
+		if (i == 50)
 		{
-			putchar(i);
+			putchar(0);
+		}
+		else if (i == 52)
+		{
+			putchar(0);
 		}
 		else
 		{
-			continue;
+			putchar(i);
 		}
 	}
 
