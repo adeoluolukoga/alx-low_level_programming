@@ -1,13 +1,13 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * print_most_numbers - prints digits 0 to 9 except 2 and 4
+ * main - prints digits 0 to 9 except 2 and 4
  *
  * Description - printing is done using putchar
  *
  */
 
-void print_most_numbers(void)
+int main()
 {
 	char i;
 
@@ -15,7 +15,7 @@ void print_most_numbers(void)
 	{
 		if ((i != 50) || (i != 52))
 		{
-			_putchar(i);
+			putchar(i);
 		}
 		else
 		{
@@ -23,5 +23,7 @@ void print_most_numbers(void)
 		}
 	}
 
-		_putchar('\n');
+		putchar('\n');
+
+		return (0);
 }
