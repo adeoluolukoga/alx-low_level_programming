@@ -7,23 +7,24 @@
  *
  */
 
-int main()
+int main(void)
 {
 	char i;
 
-	for (i = 48; i <= 57; i++)/* _putchar uses char ASCII format */
+	for (i = 48; i <= 57; i++)
 	{
-		if (i == 50)
+		if (i != 50)
 		{
-			putchar(0);
-		}
-		else if (i == 52)
-		{
-			putchar(0);
+			if (i != 52)
+			{
+				putchar(i);
+			}
+			else
+			{
+			}
 		}
 		else
 		{
-			putchar(i);
 		}
 	}
 
