@@ -22,34 +22,32 @@ int main(void)
 /* your code goes here */
 
 {
+/* declaration of variables*/
 int digit1;
-
 int digit2;
-
+int a;
+/*initializing of variables*/
+a = 0;
 digit1 = 0;
-
-digit2 = 0;
-
-for (digit1 = 0; digit1 <= 9; digit1++)
+digit2 = a;
+while (digit1 <= 9)
 {
-	putchar(digit1 + '0');
-
-	for (digit2 = 0; digit2 <= 9; digit2++)
+	for (digit2 = a; digit2 <= 9; digit2++)
 	{
-		putchar(digit2 + '0');
-	}
-		
-		if (digit1 <= 9 && digit2 < 9)
+		if (digit1 != digit2)
 		{
-			putchar(',');
+			putchar(digit1 + '0');
+			putchar(digit2 + '0');
+			putchar(44);
+			putchar(' ');
 		}
 		else
 		{
 		}
-	
-	putchar(' ');
+
+	}
+	digit1++;
+	a = a + 1;
 }
-
 	return (0);
-
 }

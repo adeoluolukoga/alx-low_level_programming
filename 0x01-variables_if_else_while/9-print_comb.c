@@ -41,8 +41,6 @@ for (digit1 = 0; digit1 <= 9; digit1++)
 	putchar(32);
 }
 
-	putchar(36);
-
 	return (0);
 
 }
