@@ -33,12 +33,12 @@ for (digit1 = 0; digit1 <= 9; digit1++)
 	if (digit1 < 9)
 	{
 		putchar(',');
+		putchar(' ');
 	}
 	else
 	{
+		putchar('\n');
 	}
-
-	putchar(32);
 }
 
 	return (0);
