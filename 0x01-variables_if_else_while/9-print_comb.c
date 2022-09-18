@@ -38,7 +38,7 @@ for (digit1 = 0; digit1 <= 9; digit1++)
 	{
 	}
 
-	putchar(' ');
+	putchar(32);
 }
 
 	return (0);
