@@ -40,16 +40,17 @@ while (digit1 <= 9)
 			putchar(digit2 + '0');
 			if ((digit1 == 8) && (digit2 == 9))
 			{
+				putchar(' ');
 			}
 			else
 			{
 				putchar(44);
+				putchar(' ');
 			}
 		}
 		else
 		{
 		}
-			putchar(' ');
 
 	}
 	digit1++;
