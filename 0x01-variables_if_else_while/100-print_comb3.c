@@ -27,7 +27,7 @@ int digit1;
 int digit2;
 int a;
 /*initializing of variables*/
-a = 0;
+a = 0; /* a is needed to increase initialization*/
 digit1 = 0;
 digit2 = a;
 while (digit1 <= 9)
@@ -38,12 +38,18 @@ while (digit1 <= 9)
 		{
 			putchar(digit1 + '0');
 			putchar(digit2 + '0');
-			putchar(44);
-			putchar(' ');
+			if ((digit1 == 8) && (digit2 == 9))
+			{
+			}
+			else
+			{
+				putchar(44);
+			}
 		}
 		else
 		{
 		}
+			putchar(' ');
 
 	}
 	digit1++;
