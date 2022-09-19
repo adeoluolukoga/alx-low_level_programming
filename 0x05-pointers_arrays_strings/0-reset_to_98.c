@@ -9,7 +9,7 @@
 
 void reset_to_98(int *n)
 {
-int p; /* pointer variable declaration*/
+int *p; /* pointer variable declaration*/
 
 n = 5; /* 5 was just used to initialized nothing special about it*/
 p = &n; /*pointing p to address of variable*/
