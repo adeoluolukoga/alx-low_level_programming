@@ -13,7 +13,7 @@ int _strlen(char *s)
 
 int lenght;
 int l; /* l is lenght of the string */
-char a[]; /* 'a' is the output of *s in byte for string lenght*/
+char a[l]; /* 'a' is the output of *s in byte for string lenght*/
 
 	*s = a[l]; /* l is the number of string*/
 
