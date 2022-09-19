@@ -10,16 +10,11 @@
 
 int _strlen(char *s)
 {
+int l;
 
-int lenght;
-int l; /* l is lenght of the string */
-char a[l]; /* 'a' is the output of *s in byte for string lenght*/
+for (l = 1; *s[l] != '\0'; l++)
 
-	*s = a[l]; /* l is the number of string*/
-
-	lenght = l - 1; /* this compensate for last element \0 */
-
-	return (lenght);
+	return (l);
 
 }
 
