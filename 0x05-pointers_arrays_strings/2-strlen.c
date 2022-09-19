@@ -12,7 +12,7 @@ int _strlen(char *s)
 {
 int l;
 
-char a[] = *s
+char a[] = *s;
 
 for (l = 1; a[l] != '\0'; l++)
 
