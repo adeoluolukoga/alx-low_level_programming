@@ -10,14 +10,14 @@
 
 int _strlen(char *s)
 {
+
 int l;
-char b;
 
-b = *s;
-char a[] = b;
-
-for (l = 1; a[l] != '\0'; l++)
-
+while (*s != '\0')
+{
+	l++;
+	*s++;
+}
 	return (l);
 
 }
