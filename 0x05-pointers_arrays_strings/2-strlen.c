@@ -13,13 +13,13 @@ int _strlen(char *s)
 
 int lenght;
 int l; /* l is lenght of the string */
-char a[l]; /* 'a' is the output of *s in byte for string lenght*/
+char a[]; /* 'a' is the output of *s in byte for string lenght*/
 
 	*s = a[l]; /* l is the number of string*/
 
-	lenght = l - 1 /* this compensate for last element \0 */ 
+	lenght = l - 1; /* this compensate for last element \0 */
 
-	return (l);
+	return (lenght);
 
 }
 
