@@ -9,10 +9,10 @@
 
 void reset_to_98(int *n)
 {
-int a; /* actual variable declaration*/
+int n; /* actual variable declaration*/
 
-a = 5; /* 5 was just used to initialized nothing special about it*/
-n = &a; /*pointing n to address of variable*/
-*n = 98; /* changing value of 'a' using pointer */
+n = 5; /* 5 was just used to initialized nothing special about it*/
+p = &n; /*pointing n to address of variable*/
+*p = 98; /* changing value of 'a' using pointer */
 }
 
