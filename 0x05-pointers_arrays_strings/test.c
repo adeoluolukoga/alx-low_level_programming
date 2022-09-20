@@ -13,7 +13,7 @@ int main(void)
 char *s;
 int l;
 
-*s = "School";
+s = "School";
 l = 0;
 
 while (*s != '\0')
@@ -21,6 +21,8 @@ while (*s != '\0')
 	l++;
 	*s++;
 }
+	printf("%d\n", l);
+
 	return (l);
 
 }
