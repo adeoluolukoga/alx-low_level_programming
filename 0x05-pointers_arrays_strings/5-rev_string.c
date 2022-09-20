@@ -28,12 +28,11 @@ while (*s != '\0')
 		}
 
 		*s = '\0'; /*to stop outer while loopfrom repeating*/
+		_putchar('\n');
 	}
 	else
 	{
 	}
 
 }
-
-	_putchar('\n');
 }
