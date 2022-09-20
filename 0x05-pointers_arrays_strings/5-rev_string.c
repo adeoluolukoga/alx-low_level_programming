@@ -25,13 +25,12 @@ while (*s != '\0')
 		{
 			_putchar(*s);
 			s--;
+			_putchar('\n');
 		}
 	}
 	else
 	{
 	}
 }
-
-	_putchar('\n');
 
 }
