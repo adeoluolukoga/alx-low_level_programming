@@ -16,7 +16,7 @@ while (*s != '\0')
 	s++;
 }
 
-	_putchar('\n')
+	_putchar('\n');
 
 if (*s == '\0')
 {
