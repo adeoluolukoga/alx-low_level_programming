@@ -18,17 +18,17 @@ while (*s != '\0')
 	s++;
 }
 
-	if (l%2 == 0)/* even length */
+	if (l % 2 == 0)/* even length */
 	{
-		for (*s = *(s + (l/2)); *s != '\0'; s++)
+		for (*s = *(s + (l / 2)); *s != '\0'; s++)
 		{
 			_putchar(*s);
 		}
-	
+
 	}
-	else (l%2 == 1)/* odd string length printing smaller half end*/
+	else /* odd string length printing smaller half end*/
 	{
-		for (*s = *(s + ((l +1)/2)); *s != '\0'; s++)
+		for (*s = *(s + ((l + 1) / 2)); *s != '\0'; s++)
 		{
 			_putchar(*s);
 		}

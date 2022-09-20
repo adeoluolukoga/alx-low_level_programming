@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _puts2 - it prints a string
+ * puts2 - it prints a string
  *
  * @str: variable of pointer
  *
  */
 
-void _puts2(char *str)
+void puts2(char *str)
 {
 
 while (*str != '\0')
