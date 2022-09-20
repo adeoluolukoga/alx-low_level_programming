@@ -14,7 +14,7 @@ while (*s != '\0')
 {
 	_putchar(*s);
 	s++;
-}
+
 	if (*s == '\0')
 	{
 		_putchar('\n');
@@ -26,10 +26,13 @@ while (*s != '\0')
 			_putchar(*s);
 			s--;
 		}
+
+		*s = '\0'; /*to stop outer while loopfrom repeating*/
 	}
 	else
 	{
 	}
-			_putchar('\n');
 
+	_putchar('\n');
+}
 }
