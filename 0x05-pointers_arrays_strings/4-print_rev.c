@@ -11,17 +11,8 @@ void print_rev(char *s)
 {
 
 *s = '\0'; /* value null after the last string */
-
-while (*s <= '\0')
-{
-	s--;
-
-	if (*s !='\0')
-	{
-		_putchar(*s);
-	}
-
-}
+s--;
+_putchar(*s);
 	_putchar('\n');
 }
 
