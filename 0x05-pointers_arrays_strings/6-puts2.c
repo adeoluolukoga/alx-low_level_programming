@@ -14,7 +14,14 @@ while (*str != '\0')
 {
 	_putchar(*str);
 	str++;
-	str++;
+
+	if (*str != '\0')
+	{
+		str++;
+	}
+	else
+	{
+	}
 }
 	_putchar('\n');
 }
