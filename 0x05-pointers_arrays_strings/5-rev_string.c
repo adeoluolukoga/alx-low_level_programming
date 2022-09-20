@@ -33,6 +33,7 @@ while (*s != '\0')
 	{
 	}
 
-	_putchar('\n');
 }
+
+	_putchar('\n');
 }
