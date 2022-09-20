@@ -14,21 +14,22 @@ while (*s != '\0')
 {
 	_putchar(*s);
 	s++;
-}
-if (*s == '\0')
-{
-	_putchar('\n');
-	s--;
-	while (*s != '\0')
-/*we can't use <= >= cos strings are not numbers that can be ordered*/
+
+	if (*s == '\0')
 	{
-		_putchar(*s);
+		_putchar('\n');
 		s--;
+
+		while (*s != '\0')
+/*we can't use <= >= cos strings are not numbers that can be ordered*/
+		{
+			_putchar(*s);
+			s--;
+		}
 	}
-}
-else
-{
-}
+	else
+	{
+	}
 
 	_putchar('\n');
 
