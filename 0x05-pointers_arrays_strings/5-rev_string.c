@@ -30,8 +30,8 @@ while (*s != '\0')
 	else
 	{
 	}
+}
 
 	_putchar('\n');
 
 }
-
