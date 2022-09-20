@@ -10,9 +10,13 @@
 void print_rev(char *s)
 {
 
-*s = '\0'; /* value null after the last string */
-s--;
-_putchar(*s);
+while (*s != '\0')
+{
+	_putchar(*s);
+	s++;
+}
+
 	_putchar('\n');
+
 }
 
