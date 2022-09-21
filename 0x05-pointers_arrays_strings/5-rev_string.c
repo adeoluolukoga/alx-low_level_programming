@@ -14,7 +14,7 @@ while (*s != '\0')
 {
 	_putchar(*s);
 	s++;
-}
+
 	if (*s == '\0')
 	{
 		_putchar('\n');
@@ -33,5 +33,5 @@ while (*s != '\0')
 	else
 	{
 	}
-
+}
 }
