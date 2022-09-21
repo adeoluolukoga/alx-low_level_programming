@@ -2,27 +2,27 @@
 
 /**
  * _abs - converts a number to absolute value
- * @int: The input number
+ * @n: The input number
  *
  * Description - absolute value.
  *
  * Return: int, 0 or -int.
  */
 
-int _abs(int)
+int _abs(int n)
 {
 
-	if (int < 0)
+	if (n < 0)
 	{
-		return (int * (-1));
+		return (n *= -1);
 	}
-	else if (int == 0)
+	else if (n == 0)
 	{
 		return (0);
 	}
 	else
 	{
-		return (int);
+		return (n);
 	}
 
 }

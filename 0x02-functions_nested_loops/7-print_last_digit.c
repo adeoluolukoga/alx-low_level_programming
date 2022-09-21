@@ -2,19 +2,19 @@
 
 /**
  * print_last_digit - it prints value of last digit
- * @int: The input number
+ * @n: The input number
  *
  * Description - absolute value.
  *
  * Return: value for last digit
  */
 
-int print_last_digit(int)
+int print_last_digit(int n)
 {
 
 int lastdigit;
 
-	lastdigit = int % 10;
+	lastdigit = n % 10;
 
 	return (lastdigit);
 
