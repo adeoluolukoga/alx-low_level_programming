@@ -22,8 +22,12 @@ for (a = 0; a <= 9; a++)
 			_putchar((c / 10) + '0');
 			_putchar((c % 10) + '0');
 		}
-		_putchar(',');
-		_putchar(' ');
+			if (b != 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
+			_putchar('\n');
 	}
 }
 }
