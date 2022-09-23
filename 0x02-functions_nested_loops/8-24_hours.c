@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * jack_bauer - it prints every minute in a day
  * Description - Time.
@@ -7,7 +6,6 @@
 void jack_bauer(void)
 {
 int a, b, c, d;
-
 for (a = 0; a <= 2; a++)
 {
 if (a <= 1)
@@ -18,12 +16,8 @@ if (a <= 1)
 		{
 			for (d = 0; d <= 9; d++)
 			{
-				_putchar(a + '0');
-				_putchar(b + '0');
-				_putchar(':');
-				_putchar(c + '0');
-				_putchar(d + '0');
-				_putchar('\n');
+			_putchar(a + '0'), _putchar(b + '0'), _putchar(':');
+			_putchar(c + '0'), _putchar(d + '0'), _putchar('\n');
 			}
 		}
 	}
@@ -36,12 +30,8 @@ else
 		{
 			for (d = 0; d <= 9; d++)
 			{
-				_putchar(a + '0');
-				_putchar(b + '0');
-				_putchar(':');
-				_putchar(c + '0');
-				_putchar(d + '0');
-				_putchar('\n');
+			_putchar(a + '0'), _putchar(b + '0'), _putchar(':');
+			_putchar(c + '0'), _putchar(d + '0'), _putchar('\n');
 			}
 		}
 	}
