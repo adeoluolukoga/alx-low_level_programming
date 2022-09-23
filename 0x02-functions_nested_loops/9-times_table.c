@@ -15,7 +15,7 @@ for (a = 0; a <= 9; a++)
 		c = a * b;
 		if (c < 10)
 		{
-			putchar(c + '0');
+			_putchar(c + '0');
 		}
 		else
 		{
