@@ -19,7 +19,7 @@ int a;
 			}
 			else
 			{
-				printf("%d", a);
+				printf("%d\n", a);
 			}
 		}
 	}
@@ -33,7 +33,7 @@ int a;
 			}
 			else
 			{
-				printf("%d", a);
+				printf("%d\n", a);
 			}
 		}
 	}
