@@ -13,14 +13,28 @@ int a;
 	{
 		for (a = n; a <= 98 ; a++)
 		{
-			printf("%d%s", a, ", ");
+			if (a != 98)
+			{
+				printf("%d%s", a, ", ");
+			}
+			else
+			{
+				printf("%d", a);
+			}
 		}
 	}
 	else
 	{
-		for (a = n; a > 98 ; a--)
+		for (a = n; a >= 98 ; a--)
 		{
-			printf("%d%s", a, ", ");
+			if (a != 98)
+			{
+				printf("%d%s", a, ", ");
+			}
+			else
+			{
+				printf("%d", a);
+			}
 		}
 	}
 }
