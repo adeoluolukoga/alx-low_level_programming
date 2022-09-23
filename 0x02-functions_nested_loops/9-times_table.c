@@ -27,7 +27,7 @@ for (a = 0; a <= 9; a++)
 				_putchar(',');
 				_putchar(' ');
 			}
-			_putchar('\n');
 	}
+			_putchar('\n');
 }
 }
